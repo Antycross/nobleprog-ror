@@ -1,0 +1,356 @@
+Started GET "/" for 127.0.0.1 at 2021-06-16 21:20:56 +0000
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "nobleprog_ror_development" does not exist
+):
+  
+activerecord (6.1.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.3.2) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.3.2) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.3.2) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.3.2) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.3.2) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-06-16 21:21:46 +0000
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "nobleprog_ror_development" does not exist
+):
+  
+activerecord (6.1.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `public_send'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `new_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:926:in `checkout_new_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:905:in `try_to_checkout_new_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:866:in `acquire_connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:588:in `checkout'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:428:in `connection'
+activerecord (6.1.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1128:in `retrieve_connection'
+activerecord (6.1.3.2) lib/active_record/connection_handling.rb:327:in `retrieve_connection'
+activerecord (6.1.3.2) lib/active_record/connection_handling.rb:283:in `connection'
+activerecord (6.1.3.2) lib/active_record/migration.rb:611:in `connection'
+activerecord (6.1.3.2) lib/active_record/migration.rb:606:in `build_watcher'
+activerecord (6.1.3.2) lib/active_record/migration.rb:588:in `block in call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+  [1m[35m (50.8ms)[0m  [1m[35mCREATE DATABASE "nobleprog_ror_development" ENCODING = 'unicode'[0m
+  [1m[35m (36.3ms)[0m  [1m[35mCREATE DATABASE "nobleprog_ror_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2021-06-16 21:22:21 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.3ms | Allocations: 332)
+Completed 200 OK in 25ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2893)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 21:22:41 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.6ms | Allocations: 179)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1479.5ms | Allocations: 17311)
+Completed 500 Internal Server Error in 2518ms (ActiveRecord: 0.0ms | Allocations: 1036250)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/nobleprog/my_project/nobleprog-ror/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+app/controllers/static_pages_controller.rb:12:in `privacy'
+Started GET "/privacy?lang=%27pl%27" for 127.0.0.1 at 2021-06-16 21:28:33 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"'pl'"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.2ms | Allocations: 48)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1287.3ms | Allocations: 5368)
+Completed 500 Internal Server Error in 1290ms (Allocations: 10544)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/nobleprog/my_project/nobleprog-ror/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+app/controllers/static_pages_controller.rb:12:in `privacy'
+Started GET "/privacy?lang=%27pl%27" for 127.0.0.1 at 2021-06-16 21:31:17 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"'pl'"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.6ms | Allocations: 284)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/nobleprog/my_project/nobleprog-ror/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 1219ms
+Built at: 06/16/2021 9:31:20 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3056.7ms | Allocations: 7001)
+Completed 200 OK in 3234ms (Views: 3059.4ms | ActiveRecord: 0.0ms | Allocations: 359099)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 21:31:25 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.6ms | Allocations: 191)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3712)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 4230)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 21:31:31 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3535)
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 8714)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 21:31:32 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3535)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 8714)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 21:31:33 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3543)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 8718)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 21:31:33 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 3535)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 8713)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 21:31:34 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3533)
+Completed 200 OK in 9ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 8706)
+
+
+Started GET "/privacy?lang=%27pl%27" for 127.0.0.1 at 2021-06-16 21:32:01 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"'pl'"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3533)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 8699)
+
+
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 21:32:39 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_pl.html.erb within layouts/application
+  Rendered static_pages/privacy_pl.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3597)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4089)
+
+
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6125735671847886150)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20210617073208)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210617073208"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-06-17 07:35:51.930668"], ["updated_at", "2021-06-17 07:35:51.930668"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6125735671847886150)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
