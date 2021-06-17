@@ -1,0 +1,1 @@
+alert("alert z pliku login.js")

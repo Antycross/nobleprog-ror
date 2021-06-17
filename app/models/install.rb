@@ -1,9 +1,6 @@
-class User < ApplicationRecord
+class Install < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-    def name_with_email
-        "#{name} (#{email})"
-    end
 end
