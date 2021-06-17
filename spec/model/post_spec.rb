@@ -25,6 +25,20 @@ describe Post do
             expect(post.content_keywords(count).length).
                 to eq(count)
         end
+
+        it 'returns only words that exists in the content' do
+
+            post = Post.new(content: my_content)
+
+            expect(split_to_words(my_content)).
+                to include(*post.content_keywords(count))
+
+        end
+
+        def split_to_words(text)
+            text.split('.').map {|x| x.split(' ')}.flatten
+        end
+
     end
 
 
